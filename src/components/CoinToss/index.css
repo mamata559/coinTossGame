@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 45%;
+  height: 70%;
+}
+.coin-image {
+  width: 20%;
+}
+.coins-container {
+  display: flex;
+  justify-content: center;
+}
+.coin-button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Roboto';
+  height: 26px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+  margin: 20px;
+}
+.count-container {
+  display: flex;
+  margin-top: 40px;
+}
+.count-value {
+  margin-right: 40px;
+  margin-left: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+}
+.para {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+}
+.heading {
+  color: #a35200;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
